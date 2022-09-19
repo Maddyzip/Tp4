@@ -7,14 +7,17 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Good old fashioned pancakes</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cardo&display=swap" rel="stylesheet">
 
   <!-- external and on-page CSS goes here -->
   <link rel="stylesheet" href="styles.css" media="all">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cinzel">
   <style>
+    /* on-page CSS, if any, goes here */
   </style>
-
-  <!-- external and on-page JavaScript goes here -->
+  
+<!-- external and on-page JavaScript goes here -->
   <script type="text/javascript" src="scripts.js" defer></script>
   <script>
     // on-page JavaScript, if any, goes here
@@ -24,9 +27,13 @@
 
 <body>
 
-  <h1>Good old fashioned Pancakes</h1>
+  <div id="titleBanner">
+    <h1>Good Old fashioned Pancakes</h1>
+  </div>
 
-  <div id="ingredients">
+  <div id="recipeColumns">
+
+    <div id="ingredients">
     <h4>Ingredients</h4>
     <ul class= "makeblack">
       <li>1½ cups all-purpose flour</li>
@@ -38,7 +45,7 @@
     </ul>
   </div>
 
-  <div id="equipment">
+    <div id="equipment">
     <h4>Kitchen Equipment</h4>
     <ul class= "makeblack">
       <li class="makeblue">stove</li>
@@ -51,7 +58,7 @@
     </ul>
   </div>
 
-  <div id="directions">
+    <div id="directions">
     <h4 >Directions</h4>
     <ol class= "makeblack">
       <li>In a large bowl, sift together the flour, baking powder, salt and sugar. Make a well in the center and pour in the milk, egg and melted butter; mix until smooth..</li>
@@ -59,8 +66,15 @@
     </ol>
   </div>
 
-  <p class="copyright">(Original recipe at <a href="https://www.allrecipes.com/recipe/21014/good-old-fashioned-pancakes/">AllRecipes.com</a>.)</p>
+  </div>
+   
+  
+  <div id="footer">
+    <p Class="makeBlue">(Original recipe at <a href="https://www.allrecipes.com/recipe/21014/good-old-fashioned-pancakes/">AllRecipes.com</a>.)</p>
+    
+  </div>
 
 </body>
-
+  
+<div style="width:100%;height:0;padding-bottom:100%;position:relative;"><iframe src="https://giphy.com/embed/1xnN3h0MvaSiwfs8y4" width="30%" height="30%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
 </html>
